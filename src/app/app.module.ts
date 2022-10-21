@@ -5,6 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { TodayComponent } from './today/today.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -12,7 +13,8 @@ import { TodayComponent } from './today/today.component';
   ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
